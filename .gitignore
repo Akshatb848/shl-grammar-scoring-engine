@@ -1,0 +1,13 @@
+# Competition data and anything derived from it must not be published.
+data/
+cache/
+outputs*/
+probes/
+*.wav
+*.zip
+
+# Environment and tooling
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.log

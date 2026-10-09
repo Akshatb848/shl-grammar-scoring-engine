@@ -1,0 +1,21 @@
+﻿--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+transformers>=4.44,<4.50
+sentence-transformers>=3,<4
+sentencepiece
+protobuf
+faster-whisper
+language-tool-python
+librosa
+soundfile
+pandas
+numpy
+scipy
+scikit-learn
+lightgbm
+matplotlib
+seaborn
+tqdm
+jupyter
+nbformat
