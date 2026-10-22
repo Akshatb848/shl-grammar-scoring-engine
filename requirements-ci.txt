@@ -1,0 +1,6 @@
+# Lightweight dependencies for the repository checks in tests/ and CI.
+# The full modelling stack (PyTorch, Whisper, DeBERTa, LanguageTool) is in requirements.txt
+# and needs a CUDA GPU plus the Kaggle competition data, so it is not installed in CI.
+nbformat==5.10.4
+pytest==9.0.3
+ruff==0.15.12
